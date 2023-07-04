@@ -5,6 +5,7 @@ What it supports:
 * DCF operations
 * A-MPDU aggregation
 * Unsaturated and saturated traffic generation
+* Script uses Multiprocessing to launch multiple simulator instances in parallel
 
 What it doesn't support:
 * Multi-cell environment
@@ -16,4 +17,4 @@ The project includes the following files:
 * constants.py - includes values for parameters
 * station.py - includes Station class which imitates wi-fi stations
 * main.py - includes Simulator class which implements simulation logic
-* script.py - script file to run the simulation scenario
+* script.py - script file to run the simulation scenario and use multiprocessing
